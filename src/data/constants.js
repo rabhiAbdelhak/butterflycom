@@ -67,7 +67,7 @@ export const membres = [
     id: 1,
     titre: {
       ar: "",
-      fr: "Présedent Directeur Général",
+      fr: "Directeur",
     },
     nom: {
       ar: "",
@@ -128,7 +128,7 @@ export const services = [
       title: {
         ar: '',
         en: '',
-        fr: 'Réaliser Vos Evènements',
+        fr: 'Réaliser Vos Evenements',
       },
       description: {
         ar: '',
@@ -185,3 +185,28 @@ export const services = [
     }
 
 ]  
+
+
+export const existants = [
+    {
+      id: 1,
+      content : {
+        fr: 'Services'
+      },
+      count: 7,
+    },
+    {
+      id: 1,
+      content : {
+        fr: 'Experimentés A votre service'
+      },
+      count: 10,
+    },
+    {
+      id: 2,
+      content : {
+        fr: 'Offres et reductions'
+      },
+      count: 5,
+    }
+]

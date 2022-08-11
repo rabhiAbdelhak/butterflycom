@@ -1,30 +1,40 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'agency';
+  src:
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('/public/assets/fonts/AgencyFB-Bold.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 
 /* variables */
-:root{
-  --color-light : #CC1A59;
+:root {
+  --color-light: #CC1A59;
   --color-white: #fff;
   --color-purple: #62056B;
-  --color-blue : #55067B;
+  --color-blue: #55067B;
   --color-blue-light: #7C408F;
-  --test : #56067b9c;
-  --transition : 0.5s;
+  --test: #56067b9c;
+  --transition: 0.5s;
 }
+
 /* end variables */
 
 
 /* global rules */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'agency', sans-serif;
   background-image: url('/public/assets/images/identity/Butterflycom-2.png');
   background-repeat: repeat-y;
   background-position: center;
@@ -33,64 +43,90 @@ body {
   background-clip: content-box;
 }
 
+html{
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 
-a{
+a {
   color: inherit;
   text-decoration: none;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-section {
   width: 95vw;
   max-width: 1150px;
-  padding: 25px 0;
+  padding: 60px 0;
   margin: 0 auto;
 }
 
-.main-section-title{
+.main-section-title {
   width: fit-content;
-    margin: 20px auto;
-    text-align: center;
-    color: var(--color-white);
+  margin: 40px auto;
+  text-align: center;
+  color: var(--color-white);
 
-    
-
-    
-
-    
 }
 
 .main-section-title h3 {
-  font-size: 18px;
+  font-size: 23px;
   color: grey;
   text-transform: uppercase;
 }
 
-.main-section-title  p {
-  font-size: 25px;
+.section-title {
+  text-transform: uppercase;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 30px;
+  padding: 40px auto;
+}
+
+.main-section-title p {
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.main-section-title  .underline {
+.main-section-title .underline {
   margin: 15px auto;
   width: 20px;
   height: 4px;
   background: var(--color-light);
 }
 
+.simple_paragraph h1{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 15px;
+
+}
+.simple_paragraph p{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  color: var(--color-white);
+}

@@ -43,7 +43,6 @@ z-index: 10;
 background-color: rgb(255 255 255);
 min-height: 115px;
 padding: 15px 25px 0;
-margin: 0 0 30px 0;
 display: flex;
 align-items: flex-end;
 justify-content: space-between;

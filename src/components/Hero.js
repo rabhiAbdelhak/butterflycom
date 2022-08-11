@@ -31,6 +31,7 @@ const Hero = () => {
 export default Hero;
 
 const Wrapper = styled.section`
+padding-top: 60px;
 position: relative;
 overflow: hidden;
 .hero_introduction{

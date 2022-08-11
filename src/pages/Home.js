@@ -1,10 +1,8 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
 import styled from 'styled-components';
-import { CurrentEvent, Hero, Membres , Modal, Services, Watch} from '../components';
+import { CurrentEvent, Hero, Membres , NewsLetter, Services, Watch} from '../components';
 
 const Home = () => {
-  const {ModalIsOpen} = useSelector(store => store.component)
   return (
     <Wrapper>
         <Hero/>
@@ -12,7 +10,7 @@ const Home = () => {
         <Membres/>
         <Services/>
         <Watch/>
-        {ModalIsOpen && <Modal/>}
+        <NewsLetter/>
     </Wrapper>
   )
 }

@@ -9,9 +9,9 @@ const CurrentEvent = () => {
   return (
     <Wrapper>
       <div className="hero_current-event">
-        <h3>L'evènement en cours (Préparation)</h3>
+        <h3>L'evénement en cours (Préparation)</h3>
         <button>
-          <FaArrowRight />
+          <FaArrowRight className="icon"/>
           FALA
         </button>
       </div>
@@ -49,7 +49,14 @@ const Wrapper = styled.section`
       color: var(--color-blue);
       border: none;
       display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 28px;
       gap: 10px;
+
+      .icon{
+        font-size: 14px;
+      }
     }
 
     ::before {

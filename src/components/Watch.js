@@ -1,20 +1,15 @@
 import React from "react";
-import { FaPlay } from "react-icons/fa";
-import { useDispatch } from "react-redux";
 import styled from "styled-components";
-import { openModal } from "../features/component/componentSlice";
 import {middleScreen} from '../utils/Responsiveness'
+import VideoPresentation from "./VideoPresentation";
 
 const Watch = () => {
-    const dispatch =useDispatch();
+   
   return (
     <Wrapper className="main-section">
-      <h1>CE QUE LE Directeur A À DIRE...</h1>
-      <div className="watch_content">
-        <div className="watch_content-video">
-          <img src="/assets/images/presentation.jpg" alt="presentation" />
-          <button className="watch_content-video-play" onClick={() => dispatch(openModal())}><FaPlay/></button>
-        </div>
+      <h1 className="section-title">CE QUE LE Directeur A À DIRE...</h1>
+       <div className="watch_content">
+       <VideoPresentation/>
         <div className="watch_content-text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -24,7 +19,7 @@ const Watch = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <span>Adel Hakim, <strong>P.D.G</strong></span>
+          <span>Adel Hakim, <strong>Directeur</strong></span>
         </div>
       </div>
     </Wrapper>
@@ -35,12 +30,7 @@ export default Watch;
 
 const Wrapper = styled.section`
   padding: 100px 0;
-  > h1 {
-    text-transform: uppercase;
-    color: var(--color-white);
-    text-align: center;
-    font-size: 30px;
-  }
+  
 
   .watch_content {
     display: flex;

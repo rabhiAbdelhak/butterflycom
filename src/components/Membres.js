@@ -102,7 +102,7 @@ const Wrapper = styled.section`
       position: absolute;
       z-index: -1;
       color: var(--color-light);
-      opacity: 0.2;
+      opacity: 0.1;
       top: 30px;
       left: -50px;
       width: 300%;

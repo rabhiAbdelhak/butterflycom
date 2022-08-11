@@ -25,7 +25,7 @@ const Wrapper = styled.article`
   min-height: 260px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: column;
   padding: 25px 10px;
   background-image: url(${props => props.image});
@@ -41,10 +41,10 @@ const Wrapper = styled.article`
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
+    bottom: 0;
     left: -90%;
     z-index: 2;
-    transform: skewX(50deg);
+    transform: skewX(-50deg);
     transition: var(--transition);
   }
 
@@ -58,10 +58,10 @@ const Wrapper = styled.article`
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: -200%;
+    bottom: 0;
+    left: -180%;
     z-index: 1;
-    transform: skewX(-50deg);
+    transform: skewX(50deg);
     transition: var(--transition);
   }
 
