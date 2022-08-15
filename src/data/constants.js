@@ -128,7 +128,7 @@ export const services = [
       title: {
         ar: '',
         en: '',
-        fr: 'Réaliser Vos Evenements',
+        fr: 'Butterfly Communication & consulting',
       },
       description: {
         ar: '',
@@ -143,7 +143,7 @@ export const services = [
       title: {
         ar: '',
         en: '',
-        fr: 'Elaborer des solutions Tech',
+        fr: 'Butterfly Events',
       },
       description: {
         ar: '',
@@ -158,7 +158,7 @@ export const services = [
       title: {
         ar: '',
         en: '',
-        fr: 'Marketing',
+        fr: 'Butterfly Prod ',
       },
       description: {
         ar: '',
@@ -173,7 +173,7 @@ export const services = [
       title: {
         ar: '',
         en: '',
-        fr: 'Edition Livre',
+        fr: 'eButterfly',
       },
       description: {
         ar: '',
@@ -209,4 +209,89 @@ export const existants = [
       },
       count: 5,
     }
+]
+
+export const contacts = [
+  {
+    id: 1,
+    type: 'inform',
+    title: {
+      fr : 'Informez Nous',
+      en: '',
+      ar: ''
+    },
+    description : {
+      fr: 'Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet',
+      en : '',
+      ar: ''
+    },
+    image: 'assets/images/info.jpg',
+    formTitle: {
+      fr: 'Contactez nous pour nous informer, suggèrer ou critiquer',
+      ar: '',
+      en:''
+    }, 
+  },
+  {
+    id: 2,
+    type: 'testimonial',
+    title: {
+      fr : 'Envoyez un Temoiniage',
+      en: '',
+      ar: ''
+    },
+    description : {
+      fr: 'Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet',
+      en : '',
+      ar: ''
+    },
+    image: 'assets/images/testimonial.jpg',
+    formTitle: {
+      fr: 'Contactez nous pour nous donner le feedback de votre butterfly exprience',
+      ar: '',
+      en:''
+    },
+    
+  },
+  {
+    id: 3,
+    type: 'service',
+    title: {
+      fr : 'Demande Service',
+      en: '',
+      ar: ''
+    },
+    description : {
+      fr: 'Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet',
+      en : '',
+      ar: ''
+    },
+    image: 'assets/images/service.jpg',
+    formTitle: {
+      fr: 'Demander Un service en remplissant le formulaire ci-dessus',
+      ar: '',
+      en:''
+    },
+    
+  },
+  {
+    id: 4,
+    type: 'join',
+    title: {
+      fr : 'Rejoinez-Nous',
+      en: '',
+      ar: ''
+    },
+    description : {
+      fr: 'Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet',
+      en : '',
+      ar: ''
+    },
+    image: 'assets/images/join.jpg',
+    formTitle: {
+      fr: 'Contactez nous pour nous informer, de vos compétence et votre ambition',
+      ar: '',
+      en:''
+    },
+  }
 ]

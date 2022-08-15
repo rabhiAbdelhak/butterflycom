@@ -236,6 +236,7 @@ const Wrapper = styled.section`
     article {
       text-align: center;
       flex: 1;
+      min-width: 250px;
 
       h4 {
         font-size: 45px;
@@ -341,6 +342,8 @@ const Presentation = styled.section`
       transform: rotate(0.8deg);
       background-color: var(--color-blue-light);
     }
+
+    
   }
 
   .presentation_line {

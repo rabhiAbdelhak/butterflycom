@@ -7,6 +7,8 @@ import Watch from "./Watch";
 import Modal from "./layouts/Modal";
 import NewsLetter from "./NewsLetter";
 import VideoPresentation from "./VideoPresentation";
+import ContactType from "./ContactType";
+import ContactForm from "./ContactFrom";
 
 export {
   SideBar,
@@ -20,5 +22,7 @@ export {
   Watch,
   Modal,
   NewsLetter,
-  VideoPresentation
+  VideoPresentation,
+  ContactType,
+  ContactForm
 };
